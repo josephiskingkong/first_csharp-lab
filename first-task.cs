@@ -14,7 +14,7 @@ namespace Calculator
       Console.WriteLine("Enter the number degree: ");
       N = Convert.ToInt32(Console.ReadLine());
 
-      for(int i=1; i<N; i++){
+      for(int MultiplyCounter=1; MultiplyCounter<N; ++MultiplyCounter){
         A *= A; // A = A * A
       }
 
